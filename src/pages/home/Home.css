@@ -1,0 +1,9 @@
+.categories-container {
+    margin: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading-books {
+    margin-left: 10vh
+}

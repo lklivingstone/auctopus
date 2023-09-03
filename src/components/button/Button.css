@@ -1,0 +1,32 @@
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.button {
+    font-family: inherit;
+    padding: 10px 65px;
+    border: none;
+    cursor: pointer;
+    background-color: #031d3b;
+    color: #edf5e1;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:disabled {
+        color: #e1e6f5;
+        cursor: not-allowed;
+    }
+
+    &:hover:enabled {
+        background-color: #12345b;
+    }
+}
+  
+  .disabled {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  

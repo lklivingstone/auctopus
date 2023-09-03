@@ -1,0 +1,17 @@
+.category-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    min-height: 50px;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .category-card.active {
+    background-color: grey;
+  }
+  

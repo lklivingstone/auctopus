@@ -1,0 +1,86 @@
+.auth-card-background {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #8ee4af;
+    color: #edf5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-card-container {
+    width: 50vw;
+    padding: 20px;
+    border-radius: 7px;
+    background-color: #379683;
+}
+
+.auth-card-title {
+    margin: 10px;
+    font-weight: 200;
+}
+  
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    flex: 1;
+    min-width: 40%;
+    padding: 10px;
+}
+
+
+  
+  .error {
+    color: #fc8181;
+    font-size: 0.75rem;
+    text-align: left;
+    margin-top: 0.25rem;
+  }
+  
+
+  
+
+  
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  form label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin: 1rem 0 0.2rem;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 0.65rem 0.5rem;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid #4a5568;
+    background-color: #2d3748;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #4299e1;
+  }
+  
+  input::placeholder,
+  select::placeholder {
+    color: #a0aec0;
+  }
+  
+  input.input-error,
+  select.input-error {
+    border-color: #fc8181;
+  }
+  

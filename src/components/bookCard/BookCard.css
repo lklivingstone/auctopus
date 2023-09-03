@@ -1,0 +1,28 @@
+/* Styling for the BookCard component */
+.book-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    padding: 5px;
+    background-color: #379683;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .card-image {
+    height: 40vh;
+    width: 30vh;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .card-text {
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+
+  
