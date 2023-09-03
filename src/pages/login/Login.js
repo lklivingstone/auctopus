@@ -10,7 +10,7 @@ import { FormCard } from "../../components/form/FormCard";
 
 const Login = () => {
     const dispatch = useDispatch();
-    const { error } = useSelector((state) => state.user_details);
+    const { isFetching, error } = useSelector((state) => state.user_details);
     
     const onSubmit = async (values, actions) => {
         login(dispatch, values);
@@ -73,7 +73,7 @@ const Login = () => {
             <div className="button-container">
                 <Button 
                     label="LOGIN" 
-                    disabled={isSubmitting} 
+                    disabled={isFetching} 
                     type="submit"
                 />
                 {
